@@ -1,0 +1,22 @@
+.progressBar{
+    width: 13%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    justify-content: center;
+    -webkit-filter: drop-shadow(-25px 25px 10px rgba(0,0,0, 0.8));
+    filter: drop-shadow(-25px 25px 10px rgba(0,0,0, 0.8));
+    color: #fff;
+    opacity: 0;
+}
+
+.CircularProgressbar-path {
+    stroke: #d8cbff !important;
+  }
+  .CircularProgressbar-trail {
+    stroke: #4a2f9e !important;
+  }
+  .CircularProgressbar-text {
+    fill: #fff !important;
+  }

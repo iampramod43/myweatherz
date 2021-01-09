@@ -1,0 +1,29 @@
+.row{
+    align-items: center;
+    display: flex;
+    margin: 0px 50px;
+    padding: 20px 50px;
+    color: white;
+    font-size: large;
+    transition: 100ms ease-out;
+    font-weight: bold;
+}
+.row:hover {
+    transform: scale(1.05);
+    background-color: #A890F1;
+    border-radius: 50px;
+    -webkit-filter: drop-shadow(-25px 25px 10px rgba(0,0,0, 0.5));
+    filter: drop-shadow(-15px 15px 10px rgba(0,0,0, 0.5));
+    cursor: pointer;
+}
+
+.row > p{
+    flex: 0.5;
+}
+
+.row__details {
+    display: flex;
+    justify-content: space-between;
+    flex: 0.5;
+    align-items: center;
+}
