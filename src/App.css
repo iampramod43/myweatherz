@@ -1,9 +1,7 @@
 .app{
-  /* background-image: linear-gradient(to right, #7F5EE6, #9674F8); */
   background-image: url("https://wallpaperaccess.com/full/1540005.jpg");
   display: flex;
   flex-direction: column;
-  /* object-fit: contain; */
 }
 
 .app > h3 {

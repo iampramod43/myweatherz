@@ -10,7 +10,7 @@
     height: 40px;
     width: 50%;
     display: flex;
-    border: 1px solid rgb(167, 100, 255);
+    border: 1px solid rgb(211, 199, 226);
     border-radius: 50px;
     text-align: center;
     align-items: center;
@@ -42,18 +42,27 @@
     width: 45%;
     border-radius: 10px;
     box-shadow: 0px 5px 7px 0px rgba(255,255,255, 0.3);
+    background: rgba( 255, 255, 255, 0.65 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10.0px );
+    -webkit-backdrop-filter: blur( 10.0px );
+    border-radius: 10px;
 }
 
 .search__suggestion{
     padding: 7px;
+    margin: 5px;
     display: flex;
     align-items: center;
     border-radius: 10px;
+    transition: 100ms;
 }
 
 .search__suggestion:hover {
     background-color: whitesmoke;
     cursor: pointer;
+    border-radius: 50px;
+    transform: scale(1.01);
 }
 
 .search__suggestion > .MuiSvgIcon-root {
@@ -64,7 +73,8 @@
 }
 
 .search__suggestion > span {
-    color: gray;
+    color: rgb(99, 88, 88);
+    font-weight: bold;
 }
 
 .search__suggestion:hover > span{

@@ -34,7 +34,6 @@
 }
 
 .row__details > p {
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+    width: 30px;
+
 }
