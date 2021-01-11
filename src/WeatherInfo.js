@@ -20,7 +20,6 @@ function WeatherInfo({lat, lon, dt, climate, rain, rise, set, temp, feelsLike, i
                     <div className="weatherInfo__details">
                         <h3>{city}</h3>
                         <p>{climate}</p>
-                        <span>Chance of rain: {rain}</span>
                     </div>
                     <div className="weatherInfo__sun">
                         <div className="weatherInfo__rise">
@@ -34,8 +33,8 @@ function WeatherInfo({lat, lon, dt, climate, rain, rise, set, temp, feelsLike, i
                     </div>
                 </div>
                 <div className="weatherInfo__right">
-                    <p className="weatherInfo__temperature">{temp}°c</p>
-                    <p className="weatherInfo__minMax">Feels like {feelsLike}°c</p>
+                    <p className="weatherInfo__temperature">{temp}°C</p>
+                    <p className="weatherInfo__minMax">Feels like {feelsLike}°C</p>
                 </div>
             </div>
         </div>

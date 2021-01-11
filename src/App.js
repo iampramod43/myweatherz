@@ -12,7 +12,6 @@ import { setCity } from './features/citySlice';
 import Row from './Row';
 function App() {
   const [weather, setWeather] = useState({});
-  const [rain, setRain] = useState('No Rain');
   const location = useSelector(selectLocation);
   const dispatch = useDispatch();
   useEffect(() => {
@@ -45,12 +44,9 @@ function App() {
       setWeather(result);
     });
   },[location]);
-
-  if (weather && weather.current && weather.current.rain) {
-    setRain(weather.current.rain);
-  }
   return (
       <div className="app">
+        <h3>Developed with ❤️ by Pramod Ukkali</h3>
       <div className="appBody">
       <Search />
         <WeatherInfo
@@ -64,7 +60,6 @@ function App() {
         feelsLike={weather.current?.feels_like}
         climate={weather.current?.weather[0].description}
         icon={weather.current?.weather[0].icon}
-        rain={rain}
         />
         <div className="app__progressBars">
           <ProgressBar title="Clouds" per={weather.current?.clouds}/>

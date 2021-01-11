@@ -6,4 +6,9 @@
     -webkit-filter: drop-shadow(-35px 15px 10px rgba(0,0,0, 0.6));
     filter: drop-shadow(-35px 15px 10px rgba(0,0,0, 0.6));
     padding: 10px;
+    transition: 100ms ease-out;
+}
+
+.hourly:hover > img {
+    transform: scale(1.2);
 }

@@ -37,12 +37,14 @@
     font-size: 70px;
     -webkit-filter: drop-shadow(-25px 25px 10px rgba(0,0,0, 0.8));
     filter: drop-shadow(-25px 25px 10px rgba(0,0,0, 0.8));
+    font-weight: bold;
 }
 
 .weatherInfo__minMax{
     font-size: 20px;
     -webkit-filter: drop-shadow(-25px 25px 10px rgba(0,0,0, 0.8));
     filter: drop-shadow(-25px 25px 10px rgba(0,0,0, 0.8));
+    font-weight: bold;
 }
 
 .weatherInfo__details{

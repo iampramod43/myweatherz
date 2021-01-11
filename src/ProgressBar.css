@@ -11,12 +11,19 @@
     opacity: 0;
 }
 
+.progressBar > h3{
+  margin-top: 5px;
+}
+
 .CircularProgressbar-path {
-    stroke: #d8cbff !important;
+    stroke: #ffffff !important;
+    stroke-width: 8px;
+    /* stroke-opacity: 90%; */
   }
   .CircularProgressbar-trail {
-    stroke: #4a2f9e !important;
+    stroke: rgba( 255, 255, 255, 0.25 ) !important;
   }
   .CircularProgressbar-text {
     fill: #fff !important;
+    font-weight: bold;
   }
